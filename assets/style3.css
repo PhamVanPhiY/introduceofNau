@@ -28,4 +28,23 @@ body {
     background-color: black;
     color: white;
     cursor: pointer;
+    transform: skew(-20deg);
+}
+.avatar:hover{
+    transform: rotate(20deg);
+   /* transform: scale(1.6);*/
+}
+.text p{
+    animation: doimauchu ease 2s 12;
+
+}
+@keyframes doimauchu{
+    from{
+        color: black;
+
+    }
+    to {
+        color:chocolate;
+
+    }
 }
